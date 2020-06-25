@@ -7,7 +7,7 @@ tenant=`awk '{print $NF}' $working_dir/tenant_export`
 
 ## Create jmeter database automatically in Influxdb
 
-echo "Creating Influxdb jmeter Database"
+echo "Creating Influxdb jmeter Database ad"
 
 ##Wait until Influxdb Deployment is up and running
 ##influxdb_status=`kubectl get po -n $tenant | grep influxdb-jmeter | awk '{print $2}' | grep Running
