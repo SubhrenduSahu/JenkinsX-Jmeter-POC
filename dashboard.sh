@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+script
 
 working_dir=`pwd`
 
